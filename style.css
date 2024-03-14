@@ -1,0 +1,20 @@
+.tabla, td, tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+.colorcete {
+    background-color: rgb(218, 214, 214);
+    font-weight: 800;
+}
+
+
+.img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.quitarBordes {
+  border: transparent;
+}
